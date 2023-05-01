@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Club Application</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="cursor-gradient"></div>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1><span class="title-typed"></span></h1>
+        <p><span class="subtitle-typed"></span></p>
+      </div>
+    </section>
+
+    <div class="questions">
+      <div class="question-card">
+        <div class="prompt">
+          <h1>Tell us a little about yourself.</h1>
+          <h2>Provide your name, year, pronouns, and favorite programming language.</h2>
+        </div>
+
+        <div class="about-myself">
+          <img src="head.png" alt="" />
+          <div class="answer"></div>
+        </div>
+      </div>
+
+      <div class="question-card">
+        <div class="prompt">
+          <h1>How long have you been a part of Programming Club?</h1>
+          <h2>Include all hackathons, club meetings, and events you've attended.</h2>
+        </div>
+
+        <div class="answer"></div>
+        <div class="how-long">
+          <hr class="timeline" />
+
+          <div class="timestamps">
+            <div class="timestamp">
+              <h3>Fall 2021</h3>
+              <p>Switched into Comp Sci 1 super super late</p>
+            </div>
+
+            <div class="timestamp">
+              <h3>Winter 2022</h3>
+              <p>Participated in Milton Rookie Hackathon</p>
+            </div>
+            <div class="timestamp">
+              <h3>Spring 2022</h3>
+              <p>Began exploring AI & Web Development Frameworks</p>
+            </div>
+            <div class="timestamp">
+              <h3>Fall 2022</h3>
+              <p>Developed a number of Milton-related CS projects</p>
+            </div>
+            <div class="timestamp">
+              <h3>Winter 2023</h3>
+              <p>Learned about creating APIs and managing databases</p>
+            </div>
+            <div class="timestamp">
+              <h3>Spring 2023</h3>
+              <p>Applied for Co-Head of Programming Club!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- add typed script here.  -->
+      </div>
+
+      <div class="question-card">
+        <div class="prompt">
+          <h1>Why do you want to be a Co-Head?</h1>
+          <h2>List some of the leadership qualities do you bring to the table.</h2>
+        </div>
+
+        <div class="answer"></div>
+
+        <img class="oldgotcha" src="oldgotcha.png" alt="" />
+      </div>
+
+      <div class="question-card">
+        <div class="prompt">
+          <h1>How would you describe yourself as a programmer?</h1>
+          <h2>
+            Describe your organizational skills and current programming experience. How will you contribute to the development of
+            <span class="gotcha">Gotcha?</span>
+          </h2>
+        </div>
+
+        <div class="answer"></div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Github</h3>
+            <p>I use GitHub frequently and am familiar with the Git workflow of opening issues, creating branches, commiting/pushing changes, and opening/merging pull requests. Check out my <a target="_blank" href="https://github.com/Bryan6734">Github here!</a>.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Frontend / Backend</h3>
+            <p>For the ratemycourse.org website, I built the frontend using React.js and pure CSS (with dynamic resizing for mobile devices). The website gets & posts data from a MongoDB database.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>APIs and Databases</h3>
+            <p>In the past, I've created APIs using MongoDB and NestJS, and am planning to learn more about Firebase in my next major project. </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Hosting Websites</h3>
+            <p>I'm familiar with AWS Amplify, GitHub Pages, and render.com to host both websites and APIs. I also have experience buying and connecting custom domains to websites I've worked on.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Scraping User Data</h3>
+            <p>I've scraped the MyMilton Directory a number of times for various projects, including the Face Guesser and a Students API which has data on students, their parents, their advisors, and phone numbers. </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Google OAuth API</h3>
+            <p>The recent ratemycourse.org website uses Google's OpenId API to grab data from user's Google account like their name, email, and picture. I would be willing to help implement this for Gotcha.</p>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <a target="_blank" href="https://bryansukidi.com">bryansukidi.com</a>
+          <a target="_blank" href="https://ratemycourse.org">ratemycourse.org</a>
+          <a target="_blank" href="https://bryan6734.github.io/Milton-Globe-Visualizer/">milton globe</a>
+          <a target="_blank" href="https://bryan6734.github.io/Milton-Faces-Quiz/">milton faces</a>
+        </div>
+
+        <img class="ratemycourse" src="ratemycourse.jpg" alt="" />
+
+      </div>
+
+      <div class="question-card">
+        <div class="prompt">
+          <h1>What other time commitments do you have?</h1>
+          <h2>Please list your other extracurriculars, sports, or other activities.</h2>
+        </div>
+
+        <div class="answer"></div>
+      </div>
+
+      <div class="question-card">
+        <div class="prompt">
+          <h1>What are your ideas for the future?</h1>
+          <h2>Provide at least 3. Be specific and explain how we could accomplish them.</h2>
+
+        </div>
+        
+        <div class="answer"></div>
+        <div class="ideas-for-future">
+
+          <h3 class="idea">1. Contest for Designing the Worst UI </h3>
+          <p>Imagine if we had a competition to design the worst, most impractical UI. This is something that the CS-1 students could do at the end of the year (maybe each student submits individually or each section submits one entry).</p>
+          <img src="https://miro.medium.com/v2/resize:fit:1086/1*MMDphOGx_jetXb0RhBnRIw.gif" alt="">
+
+          <h3 class="idea">2. Beginner CS Helpers</h3>
+          <p>It would be nice if students in CS-3 or CS-4 could devote some of their free periods to coming and helping students in CS-1. Alternatively, we could have CS-2 students present on cool things CS-1 ppl might want to add to their game. </p>
+          <p>Ms. Killiam sent me a spreadsheet containing all the period where CS-1 students have class; we could send out an email asking if people would be willing to help.</p>
+
+          <h3 class="idea">3. Commutr</h3>
+          <p>As part of the Sustainability Board, I've been working with Gunner and some of the people on the board to get Commutr (a carpooling app for day students) up and going.</p>
+
+          <h3 class="idea">4. TutorMilton</h3>
+          <p>I would love to help redesign TutorMilton to make it cleaner and fully mobile-responsive.</p>
+
+          <h3 class="idea">5. Programming Club Website</h3>
+          <p>Imagine if, at the end of the year, every single student in the lower levels could submit their proudest project to be featured on a website. I love making websites and would be so down to implement a "portfolio" page for the CS department.</p>
+        </div>
+
+      </div>
+
+      <div class="question-card">
+        <div class="prompt">
+          <h1>How would you help recruitment efforts?</h1>
+          <h2>List a few people you would recruit.</h2>
+        </div>
+
+        <div class="answer"></div>
+      </div>
+
+      <div class="question-card">
+        <div class="prompt">
+          <h1>What would you do to get more underclassmen involvement?</h1>
+          <h2>List some ideas.</h2>
+        </div>
+
+        <div class="answer"></div>
+      </div>
+
+      <footer>
+
+        <p> </p>
+      </footer>
+    </div>
+  </body>
+</html>
